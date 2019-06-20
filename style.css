@@ -78,7 +78,10 @@ body {
    padding: 0.5rem 1rem;
    border: 2px solid #eb8886;
    color: #eb8886;
- }
+   }
+.button:hover {
+  color: #FB607F;
+}
 
  .banner {
    background-image: url("images/cake.jpg");
