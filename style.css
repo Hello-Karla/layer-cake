@@ -51,18 +51,12 @@ body {
   text-align:center;
   font-size: 2rem;
 background-image: url(https://picsum.photos/200/300/?random);
-background-image: linear-gradient(to right, red, orange, #E2BD00, green, blue, indigo, violet);
+background-image: linear-gradient(to right, #fcd5ab, #bbeec3, #d4febf, #FFC1B3, #CAA9F5,#9ccde8);
   background-size:cover;
   background-position:center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
- h2 {
-   color:#eb8886;
-   font-weight: bold;
- }
-
 
  /* header and footer */
  header {
@@ -91,9 +85,9 @@ background-image: linear-gradient(to right, red, orange, #E2BD00, green, blue, i
  .button {
    padding: 0.5rem 1rem;
    border: 2px solid #eb8886;
-   color: indigo;
+   color: #cda8f5;
    font-weight: bold;
-   background-image: linear-gradient(to right, orange, yellow, violet);
+   background-image: linear-gradient(to right,#c4f8dd,#fdbdb0,#bfe8ae);
 
    }
 .button:hover {
@@ -117,19 +111,22 @@ background-image: linear-gradient(to right, red, orange, #E2BD00, green, blue, i
    background-size: cover;
    background-position: right;
    padding: 5%;
+   /*background-attachment: fixed; */
+
  }
 
- .bg-image 2 {
+ .bg-image.two {
+   background-image: url("images/cupcake2.jpg");
    background-position: left;
  }
 
 
 
-/* masonary gallery */
+/* masonry gallery */
 
 .masonry-gallery {
     column-count: 3;
-    column-gap: 0rem;
+    column-gap: 0rem; /*it pushes pictures together */
 }
 .masonry-gallery img {
   display:block;
@@ -152,8 +149,4 @@ background-image: linear-gradient(to right, red, orange, #E2BD00, green, blue, i
 
 .fab{
   font size: 2rem;
-  }
-
-  .socials {
-    display: blocks;
   }
