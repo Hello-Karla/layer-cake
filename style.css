@@ -1,0 +1,135 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*  border: 1px solid rgb(235,235,235); */
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Nunito";
+  color: rgb(90,90,95);
+}
+
+[class*=grid]{
+  margin: 0;
+}
+
+[class*=col] {
+  padding: 0;
+}
+
+ /* utility classes */
+ .left { text-align: left;}
+ .right {text-align: right;}
+ .centered { text-align: center;}
+
+ .padded { padding: 5%;}
+ .padded-1 { padding: 1rem;}
+ .padded-2 { padding: 2rem;}
+
+ .tall-50 {min-height: 50vh;}
+ .tall-100{min-height: 100vh;}
+
+ .dark-bg {background-color: rgb(90,90,95);}
+ .light-bg {background-color: #fdf4f4;}
+
+
+ /* typography  */
+
+ h2,h3,h4,h5,h6,p {
+    margin-bottom: 0.5rem;
+ }
+
+ h2 {
+   color:#eb8886;
+   font-weight: bold;
+ }
+
+
+ /* header and footer */
+ header {
+   padding: 2% 5%;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ nav a:hover {
+   color: #eb8886;
+ }
+
+ header nav a  {
+  padding: 0.5rem;
+ }
+
+ footer nav a {
+    display: block;
+}
+
+ /* button */
+ .button {
+   padding: 0.5rem 1rem;
+   border: 2px solid #eb8886;
+   color: #eb8886;
+ }
+
+ .banner {
+   background-image: url("images/cake.jpg");
+   background-size: cover;
+   background-position:center;
+   padding: 5%;
+   min-height: 40vh;
+ }
+
+ .boxed {
+   background-color: rgba(250,250,250,0.5);
+ }
+
+ .bg-image {
+   background-image: url("images/berries.jpg");
+   background-size: cover;
+   background-position: right;
+   padding: 5%;
+ }
+
+ .bg-image 2 {
+   background-position: left;
+ }
+
+
+
+/* masonary gallery */
+
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 0rem;
+}
+.masonry-gallery img {
+  display:block;
+  margin-bottom: 0rem;
+}
+
+.reviews {
+    border: 1px solid grey;
+}
+
+.profile {
+  border-radius: 100%;
+  max-width: 50%;
+}
+
+.company {
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.fab{
+  font size: 2rem;
+  }
