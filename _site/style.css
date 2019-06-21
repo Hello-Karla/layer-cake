@@ -1,0 +1,152 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*  border: 1px solid rgb(235,235,235); */
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Nunito";
+  color: rgb(90,90,95);
+}
+
+[class*=grid]{
+  margin: 0;
+}
+
+[class*=col] {
+  padding: 0;
+}
+
+ /* utility classes */
+ .left { text-align: left;}
+ .right {text-align: right;}
+ .centered { text-align: center;}
+
+ .padded { padding: 5%;}
+ .padded-1 { padding: 1rem;}
+ .padded-2 { padding: 2rem;}
+
+ .tall-50 {min-height: 50vh;}
+ .tall-100{min-height: 100vh;}
+
+ .dark-bg {background-color: rgb(90,90,95);}
+ .light-bg {background-color: #fdf4f4;}
+
+.block {
+  display:block;
+}
+ /* typography  */
+
+ h2,h3,h4,h5,h6,p {
+    margin-bottom: 0.5rem;
+ }
+
+ h1,h2{
+  text-align:center;
+  font-size: 2rem;
+background-image: url(https://picsum.photos/200/300/?random);
+background-image: linear-gradient(to right, #fcd5ab, #bbeec3, #d4febf, #FFC1B3, #CAA9F5,#9ccde8);
+  background-size:cover;
+  background-position:center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ /* header and footer */
+ header {
+   padding: 2% 5%;
+ }
+
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ a:hover {
+   color: #eb8886;
+ }
+
+ header nav a  {
+  padding: 0.5rem;
+ }
+
+ hr {
+    margin: 1rem;
+    border: 3px solid #eb8886;
+}
+
+ /* button */
+ .button {
+   padding: 0.5rem 1rem;
+   border: 2px solid #eb8886;
+   color: #cda8f5;
+   font-weight: bold;
+   background-image: linear-gradient(to right,#c4f8dd,#fdbdb0,#bfe8ae);
+
+   }
+.button:hover {
+  color: #FB607F;
+}
+
+ .banner {
+   background-image: url("images/cake.jpg");
+   background-size: cover;
+   background-position:center;
+   padding: 5%;
+   min-height: 40vh;
+ }
+
+ .boxed {
+   background-color: rgba(250,250,250,0.5);
+ }
+
+ .bg-image {
+   background-image: url("images/berries.jpg");
+   background-size: cover;
+   background-position: right;
+   padding: 5%;
+   /*background-attachment: fixed; */
+
+ }
+
+ .bg-image.two {
+   background-image: url("images/cupcake2.jpg");
+   background-position: left;
+ }
+
+
+
+/* masonry gallery */
+
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 0rem; /*it pushes pictures together */
+}
+.masonry-gallery img {
+  display:block;
+  margin-bottom: 0rem;
+}
+
+.reviews {
+    border: 1px solid grey;
+}
+
+.profile {
+  border-radius: 100%;
+  max-width: 50%;
+}
+
+.company {
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.fab{
+  font size: 2rem;
+  }
